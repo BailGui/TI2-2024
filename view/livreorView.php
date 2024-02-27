@@ -58,7 +58,7 @@
 
 <section id="comments">
         <?php 
-            foreach(array_reverse($viewComments) as $add):
+            foreach($viewComments as $add):
                 
         ?>
         <div class="messages">
